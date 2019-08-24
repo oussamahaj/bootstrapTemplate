@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fontawesome-free-5.10.1-web/fontawesome-free-5.10.1-web/css/all.css">
+  
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Start Bootstrap </div>
+      
+      <div class="list-group list-group-flush">
+            
+            
+        <a href="form1.html" class="list-group-item list-group-item-action">
+               
+            <i class="fa fa-home"></i>Dashboard</a>
+        <a href="tabledata.html" class="list-group-item list-group-item-action">
+                <i class="fab fa-apple"></i>Shortcuts</a>
+        <a href="#" class="list-group-item list-group-item-action">
+                <i class="far fa-address-card"></i>Overview</a>
+        <a href="#" class="list-group-item list-group-item-action">
+                
+                <i class="far fa-address-book"></i>Events</a>
+        <a href="#" class="list-group-item list-group-item-action">
+                <i class="fas fa-ambulance"></i>Profile</a>
+        <a href="#" class="list-group-item list-group-item-action">
+                <i class="fab fa-apple-pay"></i>Status</a>
+      </div>
+    
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">☰</button>
+        <li class="d-none d-md-inline-block">
+          <form role="search" class="app-search">
+              <div class="form-group mb-0">
+                  <input type="text" class="form-control" placeholder="Search..">
+                  
+              </div>
+          </form>
+      </li>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+            <li class="dropdown notification-list list-inline-item d-none d-md-inline-block">
+              <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                  <img src="assets/images/flags/germany_flag.jpg" class="mr-2" height="12" alt=""> English <span class="mdi mdi-chevron-down"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated language-switch">
+                  <a class="dropdown-item" href="#"><img src="assets/images/flags/french_flag.jpg" alt="" height="16"><span> French </span></a>
+                  <a class="dropdown-item" href="#"><img src="assets/images/flags/spain_flag.jpg" alt="" height="16"><span> Spanish </span></a>
+                  <a class="dropdown-item" href="#"><img src="assets/images/flags/russia_flag.jpg" alt="" height="16"><span> Russian </span></a>
+                  <a class="dropdown-item" href="#"><img src="assets/images/flags/us_flag.jpg" alt="" height="16"><span> German </span></a>
+                  <a class="dropdown-item" href="#"><img src="assets/images/flags/italy_flag.jpg" alt="" height="16"><span> Italian </span></a>
+              </div>
+          </li>
+            <li class="dropdown notification-list list-inline-item">
+              <div class="dropdown notification-list nav-pro-img">
+                <a class="dropdown-toggle nav-link arrow-none nav-user" data-toggle="dropdown" href="#" role="button"
+                  aria-haspopup="false" aria-expanded="false">
+                  <img src="assets/images/user-2.jpg" alt="user" class="rounded-circle">
+                </a>
+                <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                  <!-- item-->
+                  <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle"></i> Profile</a>
+                  <a class="dropdown-item" href="#"><i class="mdi mdi-wallet"></i> Wallet</a>
+                  <a class="dropdown-item d-block" href="#"><span class="badge badge-success float-right">11</span><i
+                      class="mdi mdi-settings"></i> Settings</a>
+                  <a class="dropdown-item" href="#"><i class="mdi mdi-lock-open-outline"></i> Lock screen</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item text-danger" href="#"><i class="mdi mdi-power text-danger"></i> Logout</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="assets/jquery/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+
+</body>
+
+</html>
